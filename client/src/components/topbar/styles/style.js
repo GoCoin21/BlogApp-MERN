@@ -5,14 +5,14 @@ width : 100%;
 background : #fff;
 color : #000;
 display : flex;
-margin-left : 15px;
+
 margin-right : 15px;
 flex-wrap : nowrap;
 align-items : center;
 justify-content : space-around;
 z-index : 999;
 top : 0;
-position : sticky;
+position : fixed;
 
 @media only screen and(max-width : 768px){
 	width : min-content;
@@ -22,7 +22,7 @@ position : sticky;
     justify-content : space-around;
     z-index : 999;
     top : 0;
-    position : sticky;
+    position :sticky;
 
 
 }

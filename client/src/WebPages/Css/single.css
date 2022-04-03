@@ -1,6 +1,12 @@
 .single{
 	display: flex;
 }
+@media only screen and (max-width:768px){
+	.single{
+		display:flex;
+	
+	}
+}
 .singlePostButton{
 	width : 100px;
 	border : none;

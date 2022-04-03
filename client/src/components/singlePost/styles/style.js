@@ -26,8 +26,9 @@ h1{
 }
 @media only screen and (max-width:768px){
 	h1{
+		font-size: 32px;
 		margin-top : 30px;
-		margin-right:650px;
+		margin-right:60px;
 	}
 	img{
       width : 790px;
@@ -69,5 +70,9 @@ export const Description = styled.p`
 color : #666;
 font-size : 18px;
 line-height : 25px;
-
+@media only screen and (max-width:768px)
+{
+	font-size : 32px;
+    line-height : 40px;
+}
 `
