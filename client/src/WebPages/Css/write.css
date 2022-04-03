@@ -1,0 +1,16 @@
+.writeForm{
+	position: fixed;
+	margin-top: 550px;
+	margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+@media only screen and (max-width : 768px){
+	.writeForm{
+		margin-left: 200px;
+		margin-top: 350px;
+	}
+
+}

@@ -1,0 +1,9 @@
+export {default as TopHeader} from "./topbar/index";
+export {default as Header} from "./header/index";
+export {default as Post} from "./post/index";
+export {default as Sidebar} from "./sidebar/index";
+export {default as SinglePost} from "./singlePost/index";
+export {default as Login} from "./login/Login";
+export {default as Register} from "./register/index";
+export {default as Write} from "./write/index";
+export {default as Setting} from "./settings/index";

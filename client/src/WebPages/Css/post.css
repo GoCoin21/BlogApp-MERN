@@ -1,0 +1,17 @@
+.post-container{
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	margin-left: 30px;
+	
+	margin-right: 65px;
+  
+	
+}
+@media only screen and (max-width : 851px) and (min-width : 393px){
+	.post-container{
+		display: block;
+		margin-left: 63px;
+	}
+	
+}

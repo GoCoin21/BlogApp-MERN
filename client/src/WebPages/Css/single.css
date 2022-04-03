@@ -1,0 +1,24 @@
+.single{
+	display: flex;
+}
+.singlePostButton{
+	width : 100px;
+	border : none;
+	background-color: black;
+	padding: 5px;
+	border-radius: 5px;
+	color : #fff;
+	cursor: pointer;
+	align-self: flex-end;
+	margin-top: 20px;
+}
+.date{
+	margin-top: 5px;
+}
+.name{
+	margin-right: 650px;
+}
+.author{
+	font-size: 26px;
+    padding-bottom: 2px;
+}
